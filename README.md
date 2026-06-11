@@ -25,7 +25,7 @@ A 12-section structure that handles 95% of OSS repos:
 
 Sections to delete or keep minimal because they almost always become slop:
 
-- **"Features"** as a bullet list. Show the example instead — it's more convincing.
+- **"Features"** as a bullet list. Show the example instead, it's more convincing.
 - **"Why X?"** marketing comparisons. Say what your tool does well, don't trash competitors.
 - **Animated GIF showing every feature.** One static screenshot is better.
 - **Roadmap** in the README. Use a project board or pinned issue.
@@ -35,9 +35,9 @@ Sections to delete or keep minimal because they almost always become slop:
 
 ## Files
 
-- [`TEMPLATE.md`](TEMPLATE.md) — the README skeleton, ready to copy
-- [`example-filled.md`](example-filled.md) — the same template filled out for a fictional project
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — a minimal contributing template
+- [`TEMPLATE.md`](TEMPLATE.md), the README skeleton, ready to copy
+- [`example-filled.md`](example-filled.md), the same template filled out for a fictional project
+- [`CONTRIBUTING.md`](CONTRIBUTING.md), a minimal contributing template
 
 ## Why this exists
 
@@ -55,7 +55,7 @@ curl -O https://raw.githubusercontent.com/0xelitesystem/oss-readme-template/main
 mv TEMPLATE.md README.md
 ```
 
-Then edit. The sections you don't need, delete. The placeholders, fill in. Don't add sections "for completeness" — empty sections are noise.
+Then edit. The sections you don't need, delete. The placeholders, fill in. Don't add sections "for completeness", empty sections are noise.
 
 ## License
 
@@ -63,6 +63,6 @@ MIT for the template files. Apply whatever license fits your project to the READ
 
 ## Related
 
-- [readme-slop-checker](https://github.com/0xelitesystem/readme-slop-checker) — audit any README for AI cliches
-- [oss-license-picker](https://github.com/0xelitesystem/oss-license-picker) — decide which license to use
-- [solo-saas-launch-checklist](https://github.com/0xelitesystem/solo-saas-launch-checklist) — pre-launch checklist
+- [readme-slop-checker](https://github.com/0xelitesystem/readme-slop-checker), audit any README for AI cliches
+- [oss-license-picker](https://github.com/0xelitesystem/oss-license-picker), decide which license to use
+- [solo-saas-launch-checklist](https://github.com/0xelitesystem/solo-saas-launch-checklist), pre-launch checklist

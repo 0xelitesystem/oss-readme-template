@@ -45,8 +45,8 @@ If it's small, document it inline:
 
 ### `thing(options)`
 
-- `options.x` (string, required) — what x is
-- `options.y` (number, optional, default `0`) — what y is
+- `options.x` (string, required), what x is
+- `options.y` (number, optional, default `0`), what y is
 - Returns: a `Result` object with `.value` and `.success`
 
 ## What it doesn't do
@@ -75,8 +75,8 @@ MIT. See [LICENSE](LICENSE).
 
 ## Related
 
-- [project-a](https://github.com/your/project-a) — what it does
-- [project-b](https://github.com/your/project-b) — what it does
+- [project-a](https://github.com/your/project-a), what it does
+- [project-b](https://github.com/your/project-b), what it does
 
 ## Acknowledgments
 

@@ -33,9 +33,9 @@ const result = slug("Why I left Google", { maxLength: 30 });
 
 ### `slug(input, options)`
 
-- `input` (string, required) — the string to convert
-- `options.maxLength` (number, optional, default `60`) — truncate at the nearest word boundary
-- `options.separator` (string, optional, default `"-"`) — the separator character
+- `input` (string, required), the string to convert
+- `options.maxLength` (number, optional, default `60`), truncate at the nearest word boundary
+- `options.separator` (string, optional, default `"-"`), the separator character
 - Returns: a string, lowercased, with non-alphanumeric runs replaced by the separator
 
 ## What it doesn't do
@@ -58,4 +58,4 @@ MIT. See [LICENSE](LICENSE).
 
 ## Related
 
-- [github.com/sindresorhus/slugify](https://github.com/sindresorhus/slugify) — fuller-featured alternative if you need more language support
+- [github.com/sindresorhus/slugify](https://github.com/sindresorhus/slugify), fuller-featured alternative if you need more language support
